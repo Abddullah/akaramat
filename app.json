@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Akaratmisr",
+    "slug": "akaratmisr",
+    "privacy": "public",
+    "sdkVersion": "31.0.0",
+    "platforms": [
+      "ios",
+      "android"
+   
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.akaratmisr.akarat",
+      "config": {
+        "googleSignIn": {
+          "apiKey": "AIzaSyA1uJHTSW1LYx_RQDTE3YxO_LhVbYt1oN8",
+          "certificateHash": "63D1F142331DFD329485AD09A371F95BE7465949"
+        },
+        "googleMaps": {
+          "apiKey": "AIzaSyA1uJHTSW1LYx_RQDTE3YxO_LhVbYt1oN8"
+        }
+      }
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.akaratmisr.akarat"
+    },
+    "description": ""
+  }
+}

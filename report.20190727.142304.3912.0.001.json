@@ -1,0 +1,285 @@
+
+{
+  "header": {
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20190727.142304.3912.0.001.json",
+    "dumpEventTime": "2019-07-27T14:23:04Z",
+    "dumpEventTimeStamp": "1564219384411",
+    "processId": 3912,
+    "cwd": "D:\\Abdullah works\\develope projects\\akaramat e misir",
+    "commandLine": [
+      "node",
+      "C:\\Users\\Dot n dot graphics\\AppData\\Roaming\\npm\\\\node_modules\\expo-cli\\bin\\expo.js",
+      "start"
+    ],
+    "nodejsVersion": "v12.3.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.3.1",
+      "v8": "7.4.288.27-node.18",
+      "uv": "1.29.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.38.0",
+      "napi": "4",
+      "llhttp": "1.1.3",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1b",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v12.3.1/node-v12.3.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.3.1/node-v12.3.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.3.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18362",
+    "osVersion": "Windows 10 Home",
+    "osMachine": "x86_64",
+    "host": "Dotndotgraphics"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff65d5f54e9",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff65d5f8dd4",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff65d5f7df8",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff65d6e0c9b",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff65da18bce",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff65d9ecc4a",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff65da8309c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff65da8ae1f",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff65da81483",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff65da7fb84",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff65dac07b3",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff65dde76e6",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff65e282c16",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 57647104,
+    "totalCommittedMemory": 57647104,
+    "usedMemory": 47073032,
+    "availableMemory": 2151463656,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 524288,
+        "committedMemory": 524288,
+        "capacity": 523976,
+        "used": 31712,
+        "available": 492264
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047952,
+        "used": 1047944,
+        "available": 8
+      },
+      "old_space": {
+        "memorySize": 46260224,
+        "committedMemory": 46260224,
+        "capacity": 46192680,
+        "used": 40468472,
+        "available": 5724208
+      },
+      "code_space": {
+        "memorySize": 1212416,
+        "committedMemory": 1212416,
+        "capacity": 1015392,
+        "used": 938176,
+        "available": 77216
+      },
+      "map_space": {
+        "memorySize": 6295552,
+        "committedMemory": 6295552,
+        "capacity": 6291496,
+        "used": 2337680,
+        "available": 3953816
+      },
+      "large_object_space": {
+        "memorySize": 2256896,
+        "committedMemory": 2256896,
+        "capacity": 2245592,
+        "used": 2245592,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 3456,
+        "used": 3456,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047952,
+        "used": 0,
+        "available": 1047952
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 15.796,
+    "kernelCpuSeconds": 3.296,
+    "cpuConsumptionPercent": 2.55241,
+    "maxRss": 123248640,
+    "pageFaults": {
+      "IORequired": 162009,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 6089,
+      "writes": 20
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=::": "::\\",
+    "=C:": "C:\\",
+    "=D:": "D:\\Abdullah works\\develope projects\\akaramat e misir",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "ANDROID_HOME": "C:\\Users\\Dot n dot graphics\\AppData\\Local\\Android\\Sdk",
+    "APPDATA": "C:\\Users\\Dot n dot graphics\\AppData\\Roaming",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DOTNDOTGRAPHICS",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "FP_NO_HOST_CHECK": "NO",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\Dot n dot graphics",
+    "JAVA_HOME": "C:\\Program Files\\Java\\jdk1.8.0_201",
+    "LOCALAPPDATA": "C:\\Users\\Dot n dot graphics\\AppData\\Local",
+    "LOGONSERVER": "\\\\DOTNDOTGRAPHICS",
+    "NUMBER_OF_PROCESSORS": "4",
+    "OneDrive": "C:\\Users\\Dot n dot graphics\\OneDrive",
+    "OS": "Windows_NT",
+    "Path": "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Yarn\\bin\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\nodejs\\;;C:\\Users\\Dot n dot graphics\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Dot n dot graphics\\AppData\\Local\\Yarn\\bin;C:\\Users\\Dot n dot graphics\\AppData\\Local\\Android\\Sdk\\platform-tools;C:\\Users\\Dot n dot graphics\\AppData\\Local\\Android\\Sdk\\tools;C:\\Users\\Dot n dot graphics\\AppData\\Local\\Android\\Sdk\\tools\\bin;C:\\Users\\Dot n dot graphics\\AppData\\Local\\Android\\Sdk\\emulator;C:\\Users\\Dot n dot graphics\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Dot n dot graphics\\AppData\\Roaming\\npm",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 42 Stepping 7, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "2a07",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\",
+    "PUBLIC": "C:\\Users\\Public",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\DOTNDO~1\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\DOTNDO~1\\AppData\\Local\\Temp",
+    "USERDOMAIN": "Dotndotgraphics",
+    "USERDOMAIN_ROAMINGPROFILE": "Dotndotgraphics",
+    "USERNAME": "Dot n dot graphics",
+    "USERPROFILE": "C:\\Users\\Dot n dot graphics",
+    "windir": "C:\\WINDOWS"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\winmmbase.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\System32\\UMPDC.dll",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\WINDOWS\\System32\\fwpuclnt.dll"
+  ]
+}

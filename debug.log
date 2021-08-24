@@ -1,0 +1,5 @@
+[0328/130910.827:ERROR:scoped_process_suspend.cc(31)] NtSuspendProcess: An attempt was made to access an exiting process. (0xc000010a)
+[0328/130910.967:ERROR:process_info.cc(118)] ReadProcessMemory bool __cdecl crashpad::(anonymous namespace)::ReadStruct(HANDLE, crashpad::WinVMAddress, T *) [T = crashpad::process_types::PEB<crashpad::process_types::internal::Traits64>]: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[0328/130910.968:ERROR:process_info.cc(545)] ReadProcessData failed
+[0731/213040.268:ERROR:process_info.cc(359)] UncheckedAllocate
+[0823/141859.269:ERROR:settings.cc(320)] Settings magic is not 1129342067
